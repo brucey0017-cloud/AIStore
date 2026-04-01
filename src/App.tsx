@@ -1782,11 +1782,11 @@ export default function App() {
 
   const renderHome = () => {
     const entries = [
-      { title: 'Skill', desc: '实用技能模板。拿来即用。', href: '#/section/skill', icon: Code },
-      { title: 'MCP', desc: '连接外部工具。扩展能力边界。', href: '#/section/mcp', icon: Zap },
-      { title: '大模型', desc: '了解模型能力。选对工具。', href: '#/section/model', icon: Cpu },
+      { title: 'Skill', desc: '实用技能模板，拿来即用。', href: '#/section/skill', icon: Code },
+      { title: 'MCP', desc: '连接外部工具，扩展能力边界。', href: '#/section/mcp', icon: Zap },
+      { title: '大模型', desc: '了解模型能力，选对工具。', href: '#/section/model', icon: Cpu },
       { title: '资讯', desc: '每日 AI 动态。不错过趋势。', href: '#/portal', icon: Newspaper },
-      { title: '安全实验室', desc: '安全使用 AI。避开常见坑。', href: '#/section/security', icon: Shield }
+      { title: '安全实验室', desc: '安全使用 AI，避开常见坑。', href: '#/section/security', icon: Shield }
     ];
 
     return (
@@ -1831,10 +1831,10 @@ export default function App() {
 
   const renderSection = (sectionKey: string | null) => {
     const sectionMeta: Record<string, { title: string; intro: string; accent: string }> = {
-      skill: { title: 'Skill', intro: '实用技能模板。拿来即用。', accent: 'from-cyan-500/20 to-cyan-400/5' },
-      mcp: { title: 'MCP', intro: '连接外部工具。扩展能力边界。', accent: 'from-indigo-500/20 to-indigo-400/5' },
-      model: { title: '大模型', intro: '了解模型能力。选对工具。', accent: 'from-emerald-500/20 to-emerald-400/5' },
-      security: { title: '安全实验室', intro: '安全使用 AI。避开常见坑。', accent: 'from-orange-500/20 to-orange-400/5' }
+      skill: { title: 'Skill', intro: '实用技能模板，拿来即用。', accent: 'from-cyan-500/20 to-cyan-400/5' },
+      mcp: { title: 'MCP', intro: '连接外部工具，扩展能力边界。', accent: 'from-indigo-500/20 to-indigo-400/5' },
+      model: { title: '大模型', intro: '了解模型能力，选对工具。', accent: 'from-emerald-500/20 to-emerald-400/5' },
+      security: { title: '安全实验室', intro: '安全使用 AI，避开常见坑。', accent: 'from-orange-500/20 to-orange-400/5' }
     };
 
     const meta = sectionKey ? sectionMeta[sectionKey] : null;
@@ -2293,17 +2293,17 @@ export default function App() {
             {[
               {
                 title: 'AI热门资讯',
-                desc: '全球动态与热点。第一时间掌握。',
+                desc: '全球动态与热点，第一时间掌握。',
                 icon: TrendingUp
               },
               {
                 title: '每日快讯',
-                desc: '5 分钟了解核心变化。高效不累。',
+                desc: '5 分钟了解核心变化，高效不累。',
                 icon: Newspaper
               },
               {
                 title: 'AI工具推荐',
-                desc: '实用工具 + 场景方案。提升效率。',
+                desc: '实用工具 + 场景方案，提升效率。',
                 icon: Star
               }
             ].map((item) => (
