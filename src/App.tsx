@@ -156,7 +156,7 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-1',
     dayLabel: 'DAY 01',
-    title: '认知搭建：LLM 与术语地图',
+    title: '认知搭建:LLM 与术语地图',
     trackTag: '基础认知',
     summary: '快速建立模型、Token、上下文窗口与推理成本的统一认知。',
     highlights: ['阅读 2 篇入门文章', '完成术语百科 5 个核心词条'],
@@ -167,20 +167,20 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-2',
     dayLabel: 'DAY 02',
-    title: '提示工程：可复用 Prompt 模板',
+    title: '提示工程:可复用 Prompt 模板',
     trackTag: 'Prompt',
-    summary: '围绕结构化输出、角色设定和约束条件，形成可复用模板。',
+    summary: '围绕结构化输出、角色设定和约束条件,形成可复用模板。',
     highlights: ['拆解 3 种提示结构', '完成 1 组多轮提示实验'],
-    deliverable: 'Prompt 模板库 v1（3-5 条）',
+    deliverable: 'Prompt 模板库 v1(3-5 条)',
     learners: 21908,
     targetHash: '#/list?tab=tutorial'
   },
   {
     id: 'path-day-3',
     dayLabel: 'DAY 03',
-    title: '工作流：从单点调用到链路编排',
+    title: '工作流:从单点调用到链路编排',
     trackTag: 'Skill',
-    summary: '把检索、生成、校验串成一条可执行流程，形成基础自动化。',
+    summary: '把检索、生成、校验串成一条可执行流程,形成基础自动化。',
     highlights: ['配置 1 条内容工作流', '增加结果校验步骤'],
     deliverable: '可复用工作流草图 + 参数说明',
     learners: 18452,
@@ -189,9 +189,9 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-4',
     dayLabel: 'DAY 04',
-    title: '模型实战：微调与评测入门',
+    title: '模型实战:微调与评测入门',
     trackTag: '实战教程',
-    summary: '理解微调边界与评测指标，避免只看单一分数做决策。',
+    summary: '理解微调边界与评测指标,避免只看单一分数做决策。',
     highlights: ['跑通 1 次微调演示', '记录成本/效果变化'],
     deliverable: '评测记录表 + 调参备忘',
     learners: 17630,
@@ -200,9 +200,9 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-5',
     dayLabel: 'DAY 05',
-    title: 'Agent 设计：任务拆解与工具调用',
+    title: 'Agent 设计:任务拆解与工具调用',
     trackTag: 'Agent',
-    summary: '用任务规划 + 工具路由的方式，提高复杂任务成功率。',
+    summary: '用任务规划 + 工具路由的方式,提高复杂任务成功率。',
     highlights: ['定义 1 套 Agent 目标', '补充失败回退策略'],
     deliverable: 'Agent 流程图 + 失败兜底清单',
     learners: 15824,
@@ -211,7 +211,7 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-6',
     dayLabel: 'DAY 06',
-    title: '安全与治理：合规检查清单',
+    title: '安全与治理:合规检查清单',
     trackTag: '安全合规',
     summary: '把提示注入、数据泄露和版权风险纳入发布前检查。',
     highlights: ['梳理 6 项风险点', '完成 1 版安全策略模板'],
@@ -222,9 +222,9 @@ const LEARNING_PATH_7D: LearningPathDay[] = [
   {
     id: 'path-day-7',
     dayLabel: 'DAY 07',
-    title: '综合演练：7 天成果复盘',
+    title: '综合演练:7 天成果复盘',
     trackTag: '项目收官',
-    summary: '汇总一周产出并构建可复用模板，形成后续迭代基线。',
+    summary: '汇总一周产出并构建可复用模板,形成后续迭代基线。',
     highlights: ['整理关键数据与结论', '规划下一阶段目标'],
     deliverable: '学习复盘文档 + 下周迭代计划',
     learners: 13117,
@@ -252,7 +252,7 @@ const VIDEO_DATA: VideoItem[] = [
   {
     id: 'video-1',
     slug: 'claude-3-5-coding-breakthrough',
-    title: 'Claude 3.5 Sonnet 实测：代码修复与重构效率全面提升',
+    title: 'Claude 3.5 Sonnet 实测:代码修复与重构效率全面提升',
     cover: 'https://picsum.photos/seed/video-claude/1280/720',
     summary: '用真实项目任务复盘 Claude 3.5 在 bug 定位、代码改写和单测生成中的表现边界。',
     author: 'Aistore Video Lab',
@@ -268,9 +268,9 @@ const VIDEO_DATA: VideoItem[] = [
   {
     id: 'video-2',
     slug: 'gpt-agent-workflow-demo',
-    title: 'GPT Agent 工作流演示：从需求到自动执行的完整链路',
+    title: 'GPT Agent 工作流演示:从需求到自动执行的完整链路',
     cover: 'https://picsum.photos/seed/video-agent/1280/720',
-    summary: '拆解一个可复用 Agent 工作流，展示任务规划、工具调用与结果校验。',
+    summary: '拆解一个可复用 Agent 工作流,展示任务规划、工具调用与结果校验。',
     author: 'Open Workflow Club',
     date: '2026-03-24',
     duration: '18:22',
@@ -284,9 +284,9 @@ const VIDEO_DATA: VideoItem[] = [
   {
     id: 'video-3',
     slug: 'gemini-context-window-practice',
-    title: 'Gemini 长上下文实战：200万 Token 到底能做什么',
+    title: 'Gemini 长上下文实战:200万 Token 到底能做什么',
     cover: 'https://picsum.photos/seed/video-gemini/1280/720',
-    summary: '从文档分析、代码审计到多模态检索，验证长上下文在业务中的真实收益。',
+    summary: '从文档分析、代码审计到多模态检索,验证长上下文在业务中的真实收益。',
     author: 'Model Frontier',
     date: '2026-03-23',
     duration: '09:47',
@@ -300,9 +300,9 @@ const VIDEO_DATA: VideoItem[] = [
   {
     id: 'video-4',
     slug: 'meta-open-source-model-roadmap',
-    title: 'Meta 开源模型路线图：Llama 生态如何落地企业应用',
+    title: 'Meta 开源模型路线图:Llama 生态如何落地企业应用',
     cover: 'https://picsum.photos/seed/video-llama/1280/720',
-    summary: '围绕 Llama 的工具链、部署形态和社区资源，梳理开源方案选型路径。',
+    summary: '围绕 Llama 的工具链、部署形态和社区资源,梳理开源方案选型路径。',
     author: 'Open Source AI',
     date: '2026-03-22',
     duration: '14:05',
@@ -319,7 +319,7 @@ const PODCAST_DATA: PodcastItem[] = [
   {
     id: 'podcast-1',
     slug: 'ai-weekly-01-model-product-gap',
-    title: 'AI 周度对谈 01：模型能力与产品落地之间的“最后一公里”',
+    title: 'AI 周度对谈 01:模型能力与产品落地之间的"最后一公里"',
     cover: 'https://picsum.photos/seed/podcast-1/960/540',
     summary: '讨论从 Demo 到上线最容易被忽略的评测、成本和稳定性问题。',
     host: 'Aistore Podcast',
@@ -332,17 +332,17 @@ const PODCAST_DATA: PodcastItem[] = [
     sourceUrl: 'https://caip.org.cn/aiCommunity/ai-podcast',
     audioUrl: 'https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3',
     transcript: [
-      '本期围绕“模型能力和产品指标如何对齐”展开讨论，重点拆解上线阶段最常见的三类误区。',
-      '我们建议先定义业务成功标准，再反推模型评测维度，避免只看通用 benchmark 分数。',
-      '在真实环境中，稳定性、可观测性和回退机制往往比单次效果更关键。'
+      '本期围绕"模型能力和产品指标如何对齐"展开讨论,重点拆解上线阶段最常见的三类误区。',
+      '我们建议先定义业务成功标准,再反推模型评测维度,避免只看通用 benchmark 分数。',
+      '在真实环境中,稳定性、可观测性和回退机制往往比单次效果更关键。'
     ]
   },
   {
     id: 'podcast-2',
     slug: 'ai-weekly-02-agent-evaluation',
-    title: 'AI 周度对谈 02：Agent 系统如何做可解释评估',
+    title: 'AI 周度对谈 02:Agent 系统如何做可解释评估',
     cover: 'https://picsum.photos/seed/podcast-2/960/540',
-    summary: '从任务拆解、工具选择到失败回放，建立一套可解释的 Agent 评估框架。',
+    summary: '从任务拆解、工具选择到失败回放,建立一套可解释的 Agent 评估框架。',
     host: 'AI Systems Roundtable',
     date: '2026-03-24',
     duration: '42:08',
@@ -353,17 +353,17 @@ const PODCAST_DATA: PodcastItem[] = [
     sourceUrl: 'https://caip.org.cn/aiCommunity/ai-podcast',
     audioUrl: 'https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3',
     transcript: [
-      'Agent 评估不能只看任务完成率，还应同时关注路径质量与资源消耗。',
-      '建议记录每一步调用上下文，建立失败样本库，便于后续快速定位回归问题。',
-      '把评估过程产品化，才能在团队扩张时保持一致的交付质量。'
+      'Agent 评估不能只看任务完成率,还应同时关注路径质量与资源消耗。',
+      '建议记录每一步调用上下文,建立失败样本库,便于后续快速定位回归问题。',
+      '把评估过程产品化,才能在团队扩张时保持一致的交付质量。'
     ]
   },
   {
     id: 'podcast-3',
     slug: 'ai-weekly-03-policy-and-open-source',
-    title: 'AI 周度对谈 03：政策收紧下，开源生态会走向何处？',
+    title: 'AI 周度对谈 03:政策收紧下,开源生态会走向何处?',
     cover: 'https://picsum.photos/seed/podcast-3/960/540',
-    summary: '结合近期监管动态与社区趋势，讨论开源模型的机会与边界。',
+    summary: '结合近期监管动态与社区趋势,讨论开源模型的机会与边界。',
     host: 'Policy x OpenSource',
     date: '2026-03-23',
     duration: '33:16',
@@ -374,9 +374,9 @@ const PODCAST_DATA: PodcastItem[] = [
     sourceUrl: 'https://caip.org.cn/aiCommunity/ai-podcast',
     audioUrl: 'https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3',
     transcript: [
-      '政策和开源并不是对立关系，关键在于治理机制是否清晰、透明且可追溯。',
-      '企业在使用开源模型时，应补齐版权、数据边界和责任链条的风险控制。',
-      '未来竞争重点将转向“开源能力 + 工程交付”的组合效率。'
+      '政策和开源并不是对立关系,关键在于治理机制是否清晰、透明且可追溯。',
+      '企业在使用开源模型时,应补齐版权、数据边界和责任链条的风险控制。',
+      '未来竞争重点将转向"开源能力 + 工程交付"的组合效率。'
     ]
   }
 ];
@@ -413,7 +413,7 @@ const buildTermArticles = (glossary: GlossaryItem[]): TermArticle[] =>
     id: item.id,
     term: item.term,
     title: `术语百科 | ${item.term}`,
-    summary: `${item.definition} 该词条已补充可落地场景和实践建议，适合快速建立认知框架。`,
+    summary: `${item.definition} 该词条已补充可落地场景和实践建议,适合快速建立认知框架。`,
     cover: `https://picsum.photos/seed/term-${encodeURIComponent(item.term)}/900/540`,
     date: `2026-03-${String(24 - (idx % 6)).padStart(2, '0')}`,
     readCount: 3800 + idx * 760,
@@ -598,12 +598,12 @@ const buildPortalFlashFeed = (news: NewsItem[]): FlashTickerItem[] => {
   const pickSlug = (idx: number) => contentSlugs[idx % Math.max(contentSlugs.length, 1)] || fallbackSlug;
 
   const mock: FlashTickerItem[] = [
-    { id: 'mx-f1', title: 'Meta 发布开源语音模型 V2，实时对话延迟下降 37%', date: '2026-03-24', exactTime: '22:45', slug: pickSlug(0) },
-    { id: 'mx-f2', title: '阿里云推出 Agent 平台新版本，支持多模型编排', date: '2026-03-24', exactTime: '21:10', slug: pickSlug(1) },
-    { id: 'mx-f3', title: '开源社区发布 RAG 评测基准 2.0，新增中文场景', date: '2026-03-24', exactTime: '19:35', slug: pickSlug(2) },
-    { id: 'mx-f4', title: '苹果端侧 AI SDK 更新，图像理解性能提升 18%', date: '2026-03-24', exactTime: '18:20', slug: pickSlug(3) },
-    { id: 'mx-f5', title: '欧盟公布 AI 合规检查新指引，企业需补充透明度文档', date: '2026-03-23', exactTime: '16:50', slug: pickSlug(4) },
-    { id: 'mx-f6', title: '字节开源 Prompt 调优工具，支持自动回归测试', date: '2026-03-23', exactTime: '15:05', slug: pickSlug(5) }
+    { id: 'mx-f1', title: 'Meta 发布开源语音模型 V2,实时对话延迟下降 37%', date: '2026-03-24', exactTime: '22:45', slug: pickSlug(0) },
+    { id: 'mx-f2', title: '阿里云推出 Agent 平台新版本,支持多模型编排', date: '2026-03-24', exactTime: '21:10', slug: pickSlug(1) },
+    { id: 'mx-f3', title: '开源社区发布 RAG 评测基准 2.0,新增中文场景', date: '2026-03-24', exactTime: '19:35', slug: pickSlug(2) },
+    { id: 'mx-f4', title: '苹果端侧 AI SDK 更新,图像理解性能提升 18%', date: '2026-03-24', exactTime: '18:20', slug: pickSlug(3) },
+    { id: 'mx-f5', title: '欧盟公布 AI 合规检查新指引,企业需补充透明度文档', date: '2026-03-23', exactTime: '16:50', slug: pickSlug(4) },
+    { id: 'mx-f6', title: '字节开源 Prompt 调优工具,支持自动回归测试', date: '2026-03-23', exactTime: '15:05', slug: pickSlug(5) }
   ];
 
   return [...base, ...mock];
@@ -616,18 +616,18 @@ const buildWaterfallBlocks = (news: NewsItem): WaterfallBlock[] => {
     {
       id: `${news.id}-wf-1`,
       type: 'text',
-      text: `${news.summary} 这一段用于模拟抓取正文片段，后续可以直接拼接外部平台返回的原始段落内容。`
+      text: `${news.summary} 这一段用于模拟抓取正文片段,后续可以直接拼接外部平台返回的原始段落内容。`
     },
     {
       id: `${news.id}-wf-2`,
       type: 'image',
       imageUrl: news.cover || `https://picsum.photos/seed/${seed}-wf-image-a/1100/760`,
-      caption: '抓取配图占位，可替换为原文图片。'
+      caption: '抓取配图占位,可替换为原文图片。'
     },
     {
       id: `${news.id}-wf-4`,
       type: 'text',
-      text: `围绕「${news.title}」，这里继续承接抓取正文，保持“图文混排 + 长段落”阅读体验，不做人工摘抄分类。`
+      text: `围绕「${news.title}」,这里继续承接抓取正文,保持"图文混排 + 长段落"阅读体验,不做人工摘抄分类。`
     },
     {
       id: `${news.id}-wf-5`,
@@ -639,12 +639,12 @@ const buildWaterfallBlocks = (news: NewsItem): WaterfallBlock[] => {
       id: `${news.id}-wf-6`,
       type: 'image',
       imageUrl: `https://picsum.photos/seed/${seed}-wf-image-b/1100/980`,
-      caption: '附加图像占位，用于还原原文流式结构。'
+      caption: '附加图像占位,用于还原原文流式结构。'
     },
     {
       id: `${news.id}-wf-7`,
       type: 'text',
-      text: '这里预留追踪更新段落，可继续接入抓取时间、原站点信息、原文链接与修订记录。'
+      text: '这里预留追踪更新段落,可继续接入抓取时间、原站点信息、原文链接与修订记录。'
     }
   ];
 };
@@ -654,7 +654,7 @@ const buildVirtualComments = (news: NewsItem): CommentItem[] => [
     id: `${news.id}-comment-1`,
     userName: '产品经理-Luna',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=luna',
-    content: `这条「${news.categoryTag}」信息很及时，我们准备本周做一轮方案评估。`,
+    content: `这条「${news.categoryTag}」信息很及时,我们准备本周做一轮方案评估。`,
     time: '2小时前',
     likes: 16
   },
@@ -662,7 +662,7 @@ const buildVirtualComments = (news: NewsItem): CommentItem[] => [
     id: `${news.id}-comment-2`,
     userName: '架构师-Kevin',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=kevin',
-    content: '希望后续补一版更细的性能和成本对比，会更容易做路线决策。',
+    content: '希望后续补一版更细的性能和成本对比,会更容易做路线决策。',
     time: '1小时前',
     likes: 9
   },
@@ -670,16 +670,16 @@ const buildVirtualComments = (news: NewsItem): CommentItem[] => [
     id: `${news.id}-comment-3`,
     userName: '开发者-Mia',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=mia',
-    content: '瀑布流阅读方式更像原文信息流，适合这种抓取来源场景。',
+    content: '瀑布流阅读方式更像原文信息流,适合这种抓取来源场景。',
     time: '35分钟前',
     likes: 5
   }
 ];
 
 const buildTermParagraphs = (term: string, definition: string): string[] => [
-  `${term} 的核心定义：${definition}`,
-  `${term} 在产品和工程实践中，通常对应能力边界、成本结构和评估指标三个观察面。`,
-  `落地 ${term} 时，建议同时建设监控与回滚策略，确保从概念验证平滑过渡到稳定上线。`
+  `${term} 的核心定义:${definition}`,
+  `${term} 在产品和工程实践中,通常对应能力边界、成本结构和评估指标三个观察面。`,
+  `落地 ${term} 时,建议同时建设监控与回滚策略,确保从概念验证平滑过渡到稳定上线。`
 ];
 
 const getNewsModuleLabel = (news: NewsItem): string => {
@@ -1650,7 +1650,7 @@ export default function App() {
       await navigator.clipboard.writeText(link);
       setShareFeedback('链接已复制');
     } catch {
-      setShareFeedback('复制失败，请手动复制地址');
+      setShareFeedback('复制失败,请手动复制地址');
     }
   };
 
@@ -1660,7 +1660,7 @@ export default function App() {
       await navigator.clipboard.writeText(link);
       setShareFeedback('术语链接已复制');
     } catch {
-      setShareFeedback('复制失败，请手动复制地址');
+      setShareFeedback('复制失败,请手动复制地址');
     }
   };
 
@@ -1670,7 +1670,7 @@ export default function App() {
       await navigator.clipboard.writeText(link);
       setShareFeedback('视频链接已复制');
     } catch {
-      setShareFeedback('复制失败，请手动复制地址');
+      setShareFeedback('复制失败,请手动复制地址');
     }
   };
 
@@ -1680,7 +1680,7 @@ export default function App() {
       await navigator.clipboard.writeText(link);
       setShareFeedback('博客链接已复制');
     } catch {
-      setShareFeedback('复制失败，请手动复制地址');
+      setShareFeedback('复制失败,请手动复制地址');
     }
   };
 
@@ -1739,7 +1739,7 @@ export default function App() {
       await player.play();
       setPlayingPodcastId(podcast.id);
     } catch {
-      setShareFeedback('音频暂不可播放，请稍后重试');
+      setShareFeedback('音频暂不可播放,请稍后重试');
     }
   };
 
@@ -1752,7 +1752,7 @@ export default function App() {
         await player.play();
         setIsPodcastDetailPlaying(true);
       } catch {
-        setShareFeedback('音频暂不可播放，请稍后重试');
+        setShareFeedback('音频暂不可播放,请稍后重试');
       }
       return;
     }
@@ -1782,11 +1782,11 @@ export default function App() {
 
   const renderHome = () => {
     const entries = [
-      { title: 'Skill', desc: '精选技能与工作流模板。', href: '#/section/skill', icon: Code },
-      { title: 'MCP', desc: '连接器与工具能力实践。', href: '#/section/mcp', icon: Zap },
-      { title: '大模型', desc: '模型评测、选型与趋势。', href: '#/section/model', icon: Cpu },
-      { title: '资讯', desc: '进入资讯聚合页，查看更多内容。', href: '#/portal', icon: Newspaper },
-      { title: '安全实验室', desc: 'AI 安全攻防与治理观察。', href: '#/section/security', icon: Shield }
+      { title: 'Skill', desc: '实用技能模板。拿来即用。', href: '#/section/skill', icon: Code },
+      { title: 'MCP', desc: '连接外部工具。扩展能力边界。', href: '#/section/mcp', icon: Zap },
+      { title: '大模型', desc: '了解模型能力。选对工具。', href: '#/section/model', icon: Cpu },
+      { title: '资讯', desc: '开始浏览页,查看更多内容。', href: '#/portal', icon: Newspaper },
+      { title: '安全实验室', desc: '安全使用 AI。避开常见坑。', href: '#/section/security', icon: Shield }
     ];
 
     return (
@@ -1797,15 +1797,14 @@ export default function App() {
           <div className="relative">
             <Badge label="AISTORE 首页" className="mb-5 bg-[#1ed661]/15 text-[#1ed661] border-[#1ed661]/30" />
             <h1 className="text-4xl md:text-6xl font-black leading-tight tracking-tight mb-6">
-              保持专业节奏hhhhh，
-              <br />
-              一站进入 <span className="text-[#1ed661]">AI 资讯体系</span>
+              专业 AI 资讯,              <br />
+              <span className="text-[#1ed661]">一站直达</span>
             </h1>
             <p className="text-gray-400 max-w-3xl text-lg leading-relaxed mb-8">
-              首页作为主入口，资讯承载聚合页面，聚合页中的“查看更多”进入分类列表与术语百科。
+              每日精选 AI 动态，技能、模型、安全一站掌握。
             </p>
             <a href="#/portal" className="inline-flex items-center gap-2 px-6 py-3 bg-[#1ed661] text-black font-black rounded-full hover:scale-105 transition-transform">
-              进入资讯聚合
+              开始浏览
               <TrendingUp size={18} />
             </a>
           </div>
@@ -2168,7 +2167,7 @@ export default function App() {
             </div>
           ) : (
             <div className="rounded-2xl border border-dashed border-white/10 bg-white/[0.01] px-5 py-9 text-sm text-gray-500">
-              当前标签暂无内容，试试其他标签。
+              当前标签暂无内容,试试其他标签。
             </div>
           )}
         </section>
@@ -2227,7 +2226,7 @@ export default function App() {
             </div>
           ) : (
             <div className="rounded-2xl border border-dashed border-white/10 bg-white/[0.01] px-5 py-9 text-sm text-gray-500">
-              当前标签暂无教程，试试其他标签。
+              当前标签暂无教程,试试其他标签。
             </div>
           )}
         </section>
@@ -2261,7 +2260,7 @@ export default function App() {
         <section className="order-7 rounded-3xl border border-white/10 bg-gradient-to-br from-[#101822] via-[#0d1117] to-[#12271b] px-6 py-10 md:px-10 md:py-12">
           <div className="max-w-4xl mx-auto text-center space-y-5">
             <h3 className="text-3xl md:text-4xl font-black leading-tight">
-              每日5分钟，掌握 <span className="text-[#4aa3ff]">AI行业关键动态</span>
+              每日5分钟,掌握 <span className="text-[#4aa3ff]">AI行业关键动态</span>
             </h3>
             <p className="text-gray-400 text-base md:text-lg">加入 28,000+ 专业人士的 AI 情报网络</p>
             <form className="max-w-3xl mx-auto">
@@ -2288,23 +2287,23 @@ export default function App() {
         <section className="order-8 space-y-8 rounded-3xl border border-white/10 bg-white/[0.02] p-6 md:p-10">
           <div className="text-center space-y-3">
             <h3 className="text-3xl md:text-4xl font-black">为什么选择AI STORE?</h3>
-            <p className="text-gray-400">我们聚焦有价值的 AI 资讯与实战内容，帮助你高效建立认知和行动路径。</p>
+            <p className="text-gray-400">我们聚焦有价值的 AI 资讯与实战内容,帮助你高效建立认知和行动路径。</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
               {
                 title: 'AI热门资讯',
-                desc: '精选全球动态与热点事件，第一时间掌握行业趋势。',
+                desc: '精选全球动态与热点事件,第一时间掌握行业趋势。',
                 icon: TrendingUp
               },
               {
                 title: '每日快讯',
-                desc: '结构化梳理核心变化，5 分钟完成高效信息摄入。',
+                desc: '结构化梳理核心变化,5 分钟完成高效信息摄入。',
                 icon: Newspaper
               },
               {
                 title: 'AI工具推荐',
-                desc: '聚合实用工具与场景方案，提高工作效率与产出质量。',
+                desc: '聚合实用工具与场景方案,提高工作效率与产出质量。',
                 icon: Star
               }
             ].map((item) => (
@@ -2346,7 +2345,7 @@ export default function App() {
               </div>
               <h1 className="text-3xl md:text-4xl font-black">7天学习路径</h1>
               <p className="text-base md:text-lg text-gray-300 leading-8">
-                把术语认知、教程实操与深度阅读组合成 7 天闭环。每天给出目标、关键动作和交付结果，便于按节奏推进。
+                把术语认知、教程实操与深度阅读组合成 7 天闭环。每天给出目标、关键动作和交付结果,便于按节奏推进。
               </p>
             </div>
             <div className="h-48 md:h-56 rounded-2xl border border-white/10 bg-[radial-gradient(circle_at_20%_20%,rgba(30,214,97,0.28),transparent_35%),radial-gradient(circle_at_80%_70%,rgba(74,163,255,0.22),transparent_35%),linear-gradient(135deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01))]" />
@@ -2382,7 +2381,7 @@ export default function App() {
               </ul>
               <div className="flex items-center justify-between text-xs text-gray-400 mb-3">
                 <span>{day.learners.toLocaleString()} 人已学习</span>
-                <span className="text-gray-500 line-clamp-1">交付成果：{day.deliverable}</span>
+                <span className="text-gray-500 line-clamp-1">交付成果:{day.deliverable}</span>
               </div>
               <a
                 href={day.targetHash}
@@ -2988,7 +2987,7 @@ export default function App() {
                     >
                       <div className="text-[11px] font-black uppercase tracking-widest text-[#9ef1bd] mb-2">学习模块</div>
                       <h4 className="text-lg font-black text-white mb-2">OpenClaw7天学习路径</h4>
-                      <p className="text-sm text-gray-300 leading-7 mb-3">7 天系统学习 + 实操任务闭环，已有 26,341 人完成学习打卡。</p>
+                      <p className="text-sm text-gray-300 leading-7 mb-3">7 天系统学习 + 实操任务闭环,已有 26,341 人完成学习打卡。</p>
                       <span className="inline-flex items-center gap-1 text-sm font-semibold text-[#9ef1bd]">
                         立即查看
                         <ArrowRight size={13} />
@@ -3110,7 +3109,7 @@ export default function App() {
 
               <section className="max-w-4xl mx-auto">
                 <p className="text-xs text-gray-600/90 leading-6">
-                  免责声明：本文仅供信息参考，不构成任何投资、法律或商业建议；如有侵权，请联系删除。
+                  免责声明:本文仅供信息参考,不构成任何投资、法律或商业建议;如有侵权,请联系删除。
                 </p>
               </section>
 
@@ -3483,7 +3482,7 @@ export default function App() {
 
               <section className="max-w-4xl">
                 <p className="text-xs text-gray-600/90 leading-6">
-                  免责声明：本文仅供信息参考，不构成任何投资、法律或商业建议；如有侵权，请联系删除。
+                  免责声明:本文仅供信息参考,不构成任何投资、法律或商业建议;如有侵权,请联系删除。
                 </p>
               </section>
 
