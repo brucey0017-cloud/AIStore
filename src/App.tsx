@@ -1785,7 +1785,7 @@ export default function App() {
       { title: 'Skill', desc: '实用技能模板。拿来即用。', href: '#/section/skill', icon: Code },
       { title: 'MCP', desc: '连接外部工具。扩展能力边界。', href: '#/section/mcp', icon: Zap },
       { title: '大模型', desc: '了解模型能力。选对工具。', href: '#/section/model', icon: Cpu },
-      { title: '资讯', desc: '开始浏览页,查看更多内容。', href: '#/portal', icon: Newspaper },
+      { title: '资讯', desc: '每日 AI 动态。不错过趋势。', href: '#/portal', icon: Newspaper },
       { title: '安全实验室', desc: '安全使用 AI。避开常见坑。', href: '#/section/security', icon: Shield }
     ];
 
@@ -1831,10 +1831,10 @@ export default function App() {
 
   const renderSection = (sectionKey: string | null) => {
     const sectionMeta: Record<string, { title: string; intro: string; accent: string }> = {
-      skill: { title: 'Skill', intro: '聚焦技能模板、工作流与效率实践。', accent: 'from-cyan-500/20 to-cyan-400/5' },
-      mcp: { title: 'MCP', intro: '连接器与工具调用方案、场景拆解与实战。', accent: 'from-indigo-500/20 to-indigo-400/5' },
-      model: { title: '大模型', intro: '跟踪模型能力、成本、推理表现与选型建议。', accent: 'from-emerald-500/20 to-emerald-400/5' },
-      security: { title: '安全实验室', intro: '聚焦模型安全、数据风险与合规治理。', accent: 'from-orange-500/20 to-orange-400/5' }
+      skill: { title: 'Skill', intro: '实用技能模板。拿来即用。', accent: 'from-cyan-500/20 to-cyan-400/5' },
+      mcp: { title: 'MCP', intro: '连接外部工具。扩展能力边界。', accent: 'from-indigo-500/20 to-indigo-400/5' },
+      model: { title: '大模型', intro: '了解模型能力。选对工具。', accent: 'from-emerald-500/20 to-emerald-400/5' },
+      security: { title: '安全实验室', intro: '安全使用 AI。避开常见坑。', accent: 'from-orange-500/20 to-orange-400/5' }
     };
 
     const meta = sectionKey ? sectionMeta[sectionKey] : null;
@@ -2286,24 +2286,24 @@ export default function App() {
 
         <section className="order-8 space-y-8 rounded-3xl border border-white/10 bg-white/[0.02] p-6 md:p-10">
           <div className="text-center space-y-3">
-            <h3 className="text-3xl md:text-4xl font-black">为什么选择AI STORE?</h3>
-            <p className="text-gray-400">我们聚焦有价值的 AI 资讯与实战内容,帮助你高效建立认知和行动路径。</p>
+            <h3 className="text-3xl md:text-4xl font-black">为什么选择 AISTORE？</h3>
+            <p className="text-gray-400">精选 AI 资讯与实战内容。高效建立认知,快速行动。</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
               {
                 title: 'AI热门资讯',
-                desc: '精选全球动态与热点事件,第一时间掌握行业趋势。',
+                desc: '全球动态与热点。第一时间掌握。',
                 icon: TrendingUp
               },
               {
                 title: '每日快讯',
-                desc: '结构化梳理核心变化,5 分钟完成高效信息摄入。',
+                desc: '5 分钟了解核心变化。高效不累。',
                 icon: Newspaper
               },
               {
                 title: 'AI工具推荐',
-                desc: '聚合实用工具与场景方案,提高工作效率与产出质量。',
+                desc: '实用工具 + 场景方案。提升效率。',
                 icon: Star
               }
             ].map((item) => (
@@ -2345,7 +2345,7 @@ export default function App() {
               </div>
               <h1 className="text-3xl md:text-4xl font-black">7天学习路径</h1>
               <p className="text-base md:text-lg text-gray-300 leading-8">
-                把术语认知、教程实操与深度阅读组合成 7 天闭环。每天给出目标、关键动作和交付结果,便于按节奏推进。
+                7 天系统学习 + 实操任务。每天有目标、有动作、有成果,按节奏推进。
               </p>
             </div>
             <div className="h-48 md:h-56 rounded-2xl border border-white/10 bg-[radial-gradient(circle_at_20%_20%,rgba(30,214,97,0.28),transparent_35%),radial-gradient(circle_at_80%_70%,rgba(74,163,255,0.22),transparent_35%),linear-gradient(135deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01))]" />
