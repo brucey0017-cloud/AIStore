@@ -27,7 +27,7 @@ AIStore 是一个 AI 资讯聚合平台
 
 ## 在线访问
 
-- **生产环境**: https://aistore-copywriting-lc.vercel.app
+- **生产环境**: https://aistore-copywriting.vercel.app
 - **GitHub 仓库**: https://github.com/brucey0017-cloud/AIStore
 
 ---
